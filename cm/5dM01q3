@@ -1,1 +1,402 @@
-sadf
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<base href="http://3qr.me:80/" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    name="viewport" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+
+<title>云首页</title>
+<link rel="stylesheet" type="text/css" href="style/delfaut.css" />
+<link rel="stylesheet" href="themes/swiper.min.css" />
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<style>
+
+/*自动轮播*/
+html,body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 35%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+</style>
+
+
+
+
+
+
+<script>
+
+
+
+function getQueryString(name) { 
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+        var r = window.location.search.substr(1).match(reg); 
+        if (r != null) return unescape(r[2]); 
+        return null; 
+ }
+function customerTel(){
+    window.location.href="http://3qr.me:80/kbd/tel.html";
+}
+
+function brandIntroductionDetail(){
+    window.location.href="http://3qr.me:80/kbd/brandIntroductionDetail.html";
+}
+
+function hotProductDetail(){
+    window.location.href="http://3qr.me:80/kbd/hotProductDetail.html";
+}
+
+function feedback(){
+    window.location.href="http://3qr.me:80/kbd/feedbackDetail.html";
+}
+
+function newActivity(){
+    window.location.href="http://3qr.me:80/kbd/newActivity.html";
+}
+function munuConsole(){
+
+	$("#menu").toggle();
+    
+} 
+</script>
+
+<style type="text/css">
+.head{height:44px; line-height:44px; background:#066d38; color:#FFF; position:relative;}
+.foot{height:44px; line-height:44px; background:#066d38; text-align:center; }
+.tab_btn{width:100%; border:1px solid #066d38; border-radius:4px; margin:20px 0}
+.tab_btn .active{width:50%; float:left; height:40px; line-height:40px; background:#066d38; color:#FFF; text-align:center;}
+.tab_btn .normal{width:50%; float:left; height:40px; line-height:40px; color:#066d38; text-align:center;}
+.comment .comment_import .btn{background:#066d38; padding:4px 10px; color:#FFF; text-align:center; float:left; border-radius:4px; margin-top:5px}
+.title i{position:absolute; left:0; top:0; height:34px; width:34px; background:url(http://drm.3qr.me/icons/74.png) no-repeat 0 -170px; background-size:100% auto;}
+.pull-down li{height:40px; line-height:40px; border-bottom:1px solid #066d38; padding-left:60px; color:#666; position:relative;}
+</style>
+
+
+</head>
+
+<body>
+    <div class="warp">
+        <div class="head">
+            <div class="center">
+                <div class="brand-line">
+                    <img src="http://hezifang.3qr.me/3dbeaf17-ce49-4cb1-94f4-87ae247e6cef" />
+                </div>
+                <div class="menu" onclick="munuConsole()"></div>
+                <div id="menu" class="pull-down" style="display: none">
+                    <span>三角</span>
+                    <ul>
+                    
+                        <li><i
+                            style="background:url(http://drm.3qr.me/icons/74.png) no-repeat 0 0;  background-size:100% auto;"></i><a
+                            href="http://3qr.me:80/kbd/main.html?code=00090004080671">质量追溯</a></li>
+                            
+                        
+                            <li><i style="background:url(http://drm.3qr.me/icons/74.png) no-repeat 0 -40px;  background-size:100% auto;"></i><a
+                                href="http://3qr.me:80/kbd/brandIntroductionDetail.html">品牌介绍</a></li>
+
+                        
+						
+						
+						
+						
+
+                        
+                            <li><i
+                                style="background:url(http://drm.3qr.me/icons/74.png) no-repeat 0 -80px;  background-size:100% auto;"></i><a
+                                href="http://3qr.me:80/kbd/hotProductDetail.html">推荐产品</a></li>
+                        
+
+                        
+                            <li><i
+                                style="background:url(http://drm.3qr.me/icons/74.png) no-repeat 0 -120px;  background-size:100% auto;"></i><a
+                                href="http://3qr.me:80/kbd/feedbackDetail.html">用户评论</a></li>
+
+                        
+
+
+
+                        <li><i
+                            style="background:url(http://drm.3qr.me/icons/74.png) no-repeat 0 -160px;  background-size:100% auto;"></i><a
+                            href="http://3qr.me:80/kbd/publicDetail.html">进入公众号</a></li>
+                            
+							
+						
+						
+						
+					
+						
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+
+                
+
+                    <div class="swiper-slide">
+
+                        <img src="http://hezifang.3qr.me/9ced6752-7dbe-45aa-ae6d-f8e0946630b6" />
+
+                    </div>
+                
+
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+
+
+        <!-- <div class="ad"><img src="images/banner.jpg" /></div>  -->
+
+        
+            <div class="title">
+                <i></i>扫码结果
+            </div>
+            <div class="board">
+                <div class="center">
+                    <div class="product">
+                           
+                        
+                            <img src="http://jsdfss.3qr.me/20191223/590ee359-166e-4318-aec1-cbe8284b3409." />
+                        
+                        
+                        
+                       
+                        
+                        
+                        
+                        
+                        
+                        
+                        <ul>
+                        
+                            <li>产品名称：<b>卡倍多_400g学生成长配方羊奶粉</b></li>
+                            
+                       
+                            
+                            
+                            
+                             
+                            
+                            
+                            
+
+                        </ul>
+                         <p><span>产品描述：</span>  以新鲜有机羊奶为主要原料，根据成年人的营养需求，科学配比，合理添加了碳酸钙、维生素A、维生素E、维生素C，营养均衡全面，具有高钙、高蛋白、高纤维的特点，是亚健康人群的理想选择。
+
+卡倍多金装优品羊奶粉，特别添加水苏糖。水苏糖对人体胃肠内的双歧杆菌、乳酸杆菌等有益菌群有着极其明显的增值作用，能迅速改善人体消化道内环境，调节微生态菌群平衡；
+
+特别添加钙、硒、维生素D等有益成分，含有多种维生素和矿物质，有益于骨骼与牙齿健康，加强钙质吸收，预防骨质疏松，提高机体免疫力；
+
+特别添加的植物甾醇、活性益生菌等营养素，有健肠及提高免疫力的作用
+<br>产品信息：<br><a href="http://s.realgoal.cn/stql/">http://s.realgoal.cn/stql/</a>
+<br>产品信息：<br><a href="http://s.realgoal.cn/stql/">http://s.realgoal.cn/stql/</a></p>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+            <div class="title">
+                <i></i>品牌介绍<span onclick="brandIntroductionDetail()">更多></span>
+            </div>
+            <div class="board">
+                <div class="center">
+                    
+                          
+                    陕西秦龙乳业有限公司位于陕西省阎良区，创建于1998年，是一家集优质牧草种植，奶山羊良种繁育，羊乳品研发，生产，加工，销售...  
+            
+                        
+                    
+                </div>
+            </div>
+
+        
+
+
+        
+            <div class="title">
+                <i></i>推荐产品<span onclick="hotProductDetail()">更多></span>
+            </div>
+            <div class="board">
+                <div class="center hot_list">
+                    <ul>
+
+                        
+                            <li><a href="http://3qr.me:80/kbd/hotProductDetail.html"><img
+                                    src="http://jsdfss.3qr.me/20191223/25e71425-19e7-4fe0-afec-f66d7744e25a." /></a>
+                            <p>
+                                    
+                                      
+                卡倍多_400g金装优品全营养配方羊奶粉  
+            
+                                </p></li>
+                        
+                            <li><a href="http://3qr.me:80/kbd/hotProductDetail.html"><img
+                                    src="http://jsdfss.3qr.me/20170606/3df32ac4-e431-4776-b46b-704795f08ba6." /></a>
+                            <p>
+                                    
+                                      
+                卡倍多_400g中老年配方羊奶粉  
+            
+                                </p></li>
+                        
+                            <li><a href="http://3qr.me:80/kbd/hotProductDetail.html"><img
+                                    src="http://jsdfss.3qr.me/20191223/590ee359-166e-4318-aec1-cbe8284b3409." /></a>
+                            <p>
+                                    
+                                      
+                卡倍多_400g学生成长配方羊奶粉  
+            
+                                </p></li>
+                        
+
+                    </ul>
+                    <ul class="clear"></ul>
+                </div>
+            </div>
+
+
+        
+
+
+        
+            <div class="title">
+                <i></i>最新活动<span onclick="newActivity()">更多></span>
+            </div>
+            <div class="board">
+                <div class="center news_list">
+                    <ul>
+                        
+                        <!--  <li class="red">A2三段奶粉限时特卖！</li>
+                <li class="red">A2三段奶粉限时特卖！</li>
+                <li>A2三段奶粉限时特卖！</li> -->
+                    </ul>
+                </div>
+            </div>
+
+
+        
+
+
+
+        
+            <div class="title">
+                <i></i>用户反馈<span onclick="feedback()">更多></span>
+            </div>
+            <div class="board">
+                <div class="center comment_list">
+                    <ul>
+                        
+                            <li><i
+                                style="background:url(http://drm.3qr.me/icons/74.png) no-repeat 0 -210px;  background-size:100% auto;"></i><a
+                                href="http://3qr.me:80/kbd/feedbackDetail.html">   
+                多少钱一盒  
+            </a></li>
+                        
+                            <li><i
+                                style="background:url(http://drm.3qr.me/icons/74.png) no-repeat 0 -210px;  background-size:100% auto;"></i><a
+                                href="http://3qr.me:80/kbd/feedbackDetail.html">   
+                多少钱 一盒  
+            </a></li>
+                        
+                            <li><i
+                                style="background:url(http://drm.3qr.me/icons/74.png) no-repeat 0 -210px;  background-size:100% auto;"></i><a
+                                href="http://3qr.me:80/kbd/feedbackDetail.html">   
+                多少钱一盒？  
+            </a></li>
+                        
+                        <!-- <li><i style="background:url(images/icon.png) no-repeat 0 -210px;  background-size:100% auto;"></i>请问四岁大宝宝喝三段奶粉行吗？</li>
+                <li><i style="background:url(images/icon.png) no-repeat 0 -245px;  background-size:100% auto;"></i>请问四岁大宝宝喝三段奶粉行吗？</li>
+                <li><i style="background:url(images/icon.png) no-repeat 0 -210px;  background-size:100% auto;"></i>请问四岁大宝宝喝三段奶粉行吗？</li> -->
+                    </ul>
+                </div>
+            </div>
+
+        
+
+        
+            <div class="foot" onclick="customerTel()">
+                <b>咨询电话</b>
+            </div>
+
+        
+
+
+
+        <script type="text/javascript" src="js/swiper.min.js"></script>
+        <script type="text/javascript">
+    var mySwiper = new Swiper('.swiper-container',{
+        /* pagination: '.pagination',
+        loop:true,
+        grabCursor: true,
+        paginationClickable: true */
+     
+        pagination: 'null',
+        
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+      
+    
+    
+    $('.arrow-left').on('click', function(e){
+        e.preventDefault();
+        mySwiper.swipePrev();
+      });
+      $('.arrow-right').on('click', function(e){
+        e.preventDefault();
+        mySwiper.swipeNext();
+      });
+    
+    </script>
+    </div>
+</body>
+</html>
+
+
